@@ -17,7 +17,7 @@ describe('AppComponent', () => {
   it(`should have the 'angular-husky' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-husky-test');
+    expect(app.title).toEqual('angular-husky');
   });
 
   it('should render title', () => {
